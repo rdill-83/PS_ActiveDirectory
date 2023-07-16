@@ -18,5 +18,5 @@ if (Test-Connection -ComputerName $ServerName -Count 1 -Quiet)
 }
 else
 {
-    Write-Host "Server $ServerName is Not Online
+    Write-Host "Server $ServerName is Not Online"
 }
